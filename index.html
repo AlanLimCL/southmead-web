@@ -102,6 +102,42 @@
 <body class="bg-white text-gray-800">
     
     <!-- Navigation -->
+
+    <!-- =========================================================== -->
+<!--  Logo + Navigation Alignment Snippets (Tailwind‑powered)   -->
+<!--  Drop these into your layout to keep the logo and nav      -->
+<!--  perfectly aligned on a single horizontal row.             -->
+<!-- =========================================================== -->
+
+<!-- ==================== FULL HEADER EXAMPLE ==================== -->
+<header class="flex items-center justify-between px-6 py-4 bg-white/90 backdrop-blur shadow-sm">
+  <!-- Logo -->
+  <a href="/" class="flex items-center">
+    <img src="Logo_Southmead_En.png" alt="Southmead" class="h-10 w-auto" />
+  </a>
+
+  <!-- Primary navigation links -->
+  <nav class="hidden md:flex gap-8 text-gray-700 font-semibold tracking-wide">
+    <a href="#our-story"      class="hover:text-red-600 transition-colors">Our Story</a>
+    <a href="#market"         class="hover:text-red-600 transition-colors">Market</a>
+    <a href="#services"       class="hover:text-red-600 transition-colors">Services</a>
+    <a href="#team"           class="hover:text-red-600 transition-colors">Team</a>
+  </nav>
+
+  <!-- CTA button -->
+  <a href="#contact" class="ml-6 inline-flex items-center px-5 py-2 rounded-md bg-red-600 text-white font-bold shadow hover:bg-red-700 transition-colors">
+    Navigate With Us
+  </a>
+
+  <!-- Mobile menu toggle (optional) -->
+  <button class="md:hidden ml-auto text-gray-700 focus:outline-none" aria-label="Toggle menu">
+    <!-- Burger icon with lucide-react or heroicons -->
+    <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+  </button>
+</header>
+<!--
     <nav class="fixed top-0 w-full bg-white bg-opacity-95 backdrop-blur-sm z-50 border-b border-gray-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center py-4">
@@ -129,6 +165,7 @@
             </div>
         </div>
     </nav>
+-->
     
     <!-- Hero Section -->
     <section class="hero-gradient story-section relative overflow-hidden">
