@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Southmead Asia - From Breakthroughs to Beachheads | Deep-Tech Expansion Partner</title>
+    <meta name="description" content="Navigate Southeast Asia's deep-tech waters with Southmead - your trusted pilotage partner for cross-border venture expansion. We guide breakthroughs to establish beachheads across ASEAN markets.">
+    <meta name="keywords" content="deep-tech expansion, Southeast Asia market entry, cross-border ventures, innovation catalyst, ASEAN startup expansion, venture builder Singapore">
+    
+    <!-- External Libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <style>
+        :root {
+            --southmead-blue: #2e75b6;
+            --signal-red: #fe0101;
+            --light-blue: #74a3ce;
+            --medium-blue: #5791c4;
+            --deep-blue: #4886bf;
+            --dark-gray: #333333;
+        }
+        
+        * {
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, var(--southmead-blue) 0%, var(--deep-blue) 100%);
+        }
+        
+        .wave-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232e75b6' fill-opacity='0.05'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3Ccircle cx='10' cy='10' r='2'/%3E%3Ccircle cx='50' cy='50' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        
+        .compass-icon {
+            animation: compass-spin 20s linear infinite;
+        }
+        
+        @keyframes compass-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        .chart-container {
+            height: 400px;
+            margin: 2rem 0;
+        }
+        
+        .story-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+        
+        .floating-card {
+            transform: translateY(0);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .floating-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(46, 117, 182, 0.1);
+        }
+        
+        .section-divider {
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--southmead-blue), transparent);
+            margin: 4rem 0;
+        }
+        
+        .leadership-card {
+            background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%);
+            border-top: 4px solid var(--southmead-blue);
+        }
+        
+        .service-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--southmead-blue);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        
+         {
+            .chart-container {
+                height: 300px;
+            }
+            
+            .story-section {
+                min-height: auto;
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white bg-opacity-95 backdrop-blur-sm z-50 border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <div class="w-10 h-10 rounded-full flex items-center justify-center mr-3" style="background-color: var(--southmead-blue);">
+                        <div class="text-white font-bold text-lg">S</div>
+                        <div class="absolute w-2 h-2 rounded-full ml-6 mt-1" style="background-color: var(--signal-red);"></div>
+                        <div class="absolute w-1 h-1 rounded-full ml-8 mt-3" style="background-color: var(--signal-red);"></div>
+                        <div class="absolute w-1 h-1 rounded-full ml-4 mt-3" style="background-color: var(--signal-red);"></div>
+                    </div>
+                    <span class="text-xl font-bold" style="color: var(--southmead-blue);">Southmead</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#story" class="text-gray-700 hover:text-blue-600 transition-colors">Our Story</a>
+                    <a href="#market" class="text-gray-700 hover:text-blue-600 transition-colors">Market</a>
+                    <a href="#services" class="text-gray-700 hover:text-blue-600 transition-colors">Services</a>
+                    <a href="#team" class="text-gray-700 hover:text-blue-600 transition-colors">Team</a>
+                    <a href="#contact" class="text-white px-4 py-2 rounded-lg transition-all hover:shadow-lg" style="background-color: var(--signal-red);">Navigate With Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero-gradient story-section relative overflow-hidden">
+        <div class="absolute inset-0 wave-pattern"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="text-white">
+                    <h1 class="text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                        From Breakthroughs to 
+                        <span style="color: var(--signal-red);">Beachheads</span>
+                    </h1>
+                    <p class="text-xl mb-8 text-blue-100">We Chart the Course</p>
+                    <p class="text-lg mb-8 leading-relaxed">
+                        Navigate Southeast Asia's deep-tech waters with confidence. As your trusted pilotage partner, 
+                        we guide cutting-edge innovation from lab to market, helping ventures land, launch, and lead 
+                        across the region's vibrant innovation islands.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#contact" class="px-8 py-4 rounded-lg font-semibold text-white transition-all hover:shadow-xl transform hover:scale-105" style="background-color: var(--signal-red);">
+                            <i class="fas fa-compass mr-2"></i>
+                            Start Your Journey
+                        </a>
+                        <a href="#story" class="px-8 py-4 border-2 border-white rounded-lg font-semibold text-white hover:bg-white hover:text-blue-600 transition-all">
+                            Discover Our Mission
+                        </a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="compass-icon text-8xl text-white opacity-20 absolute top-0 right-0">
+                        <i class="fas fa-compass"></i>
+                    </div>
+                    <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-8">
+                        <h3 class="text-2xl font-bold text-white mb-4">Your Pilotage Partner</h3>
+                        <div class="space-y-4 text-blue-100">
+                            <div class="flex items-center">
+                                <i class="fas fa-check-circle mr-3" style="color: var(--signal-red);"></i>
+                                <span>Deep-Tech Expertise</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-check-circle mr-3" style="color: var(--signal-red);"></i>
+                                <span>Southeast Asia Experience</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-check-circle mr-3" style="color: var(--signal-red);"></i>
+                                <span>Network of Trust</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-check-circle mr-3" style="color: var(--signal-red);"></i>
+                                <span>End-to-End Execution</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Mission & Vision Story -->
+    <section id="story" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-6" style="color: var(--southmead-blue);">Our Adventure Story</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Every great venture begins with a vision. Ours is to see Southeast Asia flourish as vibrant islands 
+                    of innovation, each connected by trust, humility, and flawless execution.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12 items-center mb-16">
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="text-4xl mb-4" style="color: var(--southmead-blue);">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4" style="color: var(--southmead-blue);">Our Mission</h3>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        "To guide deep tech out of the lab & onto new shores, helping ventures land, launch & lead across Southeast Asia."
+                    </p>
+                    <div class="mt-6 p-4 rounded-lg" style="background-color: rgba(46, 117, 182, 0.1);">
+                        <p class="text-sm font-medium" style="color: var(--southmead-blue);">
+                            We bridge cutting-edge innovation with real-world market needs, 
+                            built on rigorous engineering & strategy, delivered with market insight.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="text-4xl mb-4" style="color: var(--signal-red);">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4" style="color: var(--southmead-blue);">Our Vision</h3>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        "Southeast Asia as vibrant islands of innovation—each island linked by trust, humility, 
+                        and execution, lighting the way for the next wave of deep-tech pioneers."
+                    </p>
+                    <div class="mt-6 p-4 rounded-lg" style="background-color: rgba(254, 1, 1, 0.1);">
+                        <p class="text-sm font-medium" style="color: var(--signal-red);">
+                            A vibrant, integrated regional deep-tech ecosystem, realized through 
+                            collaborative, confident-yet-humble approach.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Market Opportunity -->
+    <section id="market" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-6" style="color: var(--southmead-blue);">Southeast Asia: The Next Deep-Tech Frontier</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    A $1 trillion digital economy awaits, with deep-tech funding surging from 3.6% to 17.6% 
+                    of all venture capital in just three years.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-3 gap-8 mb-16">
+                <div class="text-center floating-card bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="text-5xl font-bold mb-4" style="color: var(--southmead-blue);">700M</div>
+                    <h3 class="text-xl font-semibold mb-2">Population</h3>
+                    <p class="text-gray-600">Young, digitally savvy market ready for innovation</p>
+                </div>
+                
+                <div class="text-center floating-card bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="text-5xl font-bold mb-4" style="color: var(--signal-red);">$1T</div>
+                    <h3 class="text-xl font-semibold mb-2">Digital Economy by 2030</h3>
+                    <p class="text-gray-600">Projected growth from $330B in 2025</p>
+                </div>
+                
+                <div class="text-center floating-card bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="text-5xl font-bold mb-4" style="color: var(--deep-blue);">17.6%</div>
+                    <h3 class="text-xl font-semibold mb-2">Deep-Tech Share</h3>
+                    <p class="text-gray-600">Of all venture funding in 2024, up from 3.6% in 2021</p>
+                </div>
+            </div>
+            
+            <!-- Deep-Tech Funding Chart -->
+            <div class="bg-white rounded-2xl p-8 shadow-lg mb-16">
+                <h3 class="text-2xl font-bold mb-6 text-center" style="color: var(--southmead-blue);">Deep-Tech Funding Evolution</h3>
+                <div class="chart-container">
+                    <canvas id="fundingChart"></canvas>
+                </div>
+            </div>
+            
+            <!-- Key Sectors -->
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6" style="color: var(--southmead-blue);">High-Impact Sectors</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center p-4 bg-white rounded-lg shadow">
+                            <div class="w-12 h-12 rounded-full flex items-center justify-center mr-4" style="background-color: var(--southmead-blue);">
+                                <i class="fas fa-brain text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">AI & Software Solutions</h4>
+                                <p class="text-sm text-gray-600">36 deals, $244M funding in 2024</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center p-4 bg-white rounded-lg shadow">
+                            <div class="w-12 h-12 rounded-full flex items-center justify-center mr-4" style="background-color: var(--medium-blue);">
+                                <i class="fas fa-heartbeat text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">HealthTech</h4>
+                                <p class="text-sm text-gray-600">Significant growth trajectory</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center p-4 bg-white rounded-lg shadow">
+                            <div class="w-12 h-12 rounded-full flex items-center justify-center mr-4" style="background-color: var(--light-blue);">
+                                <i class="fas fa-leaf text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">GreenTech</h4>
+                                <p class="text-sm text-gray-600">Rising investment interest for 2025+</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center p-4 bg-white rounded-lg shadow">
+                            <div class="w-12 h-12 rounded-full flex items-center justify-center mr-4" style="background-color: var(--deep-blue);">
+                                <i class="fas fa-cogs text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold">Advanced Manufacturing</h4>
+                                <p class="text-sm text-gray-600">Government-backed regional growth</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-2xl font-bold mb-6" style="color: var(--southmead-blue);">Singapore: The Gateway Hub</h3>
+                    <div class="bg-white rounded-2xl p-8 shadow-lg">
+                        <div class="text-center mb-6">
+                            <div class="text-4xl font-bold mb-2" style="color: var(--signal-red);">85.6%</div>
+                            <p class="text-gray-600">of all deep-tech deals in 2024</p>
+                        </div>
+                        
+                        <div class="space-y-3">
+                            <div class="flex items-center">
+                                <i class="fas fa-university mr-3" style="color: var(--southmead-blue);"></i>
+                                <span class="text-sm">World-class research institutions</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-hand-holding-usd mr-3" style="color: var(--southmead-blue);"></i>
+                                <span class="text-sm">Abundant government grants</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-balance-scale mr-3" style="color: var(--southmead-blue);"></i>
+                                <span class="text-sm">Pro-tech regulatory environment</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-rocket mr-3" style="color: var(--southmead-blue);"></i>
+                                <span class="text-sm">Strategic launchpad for regional expansion</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Challenges Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-6" style="color: var(--southmead-blue);">Navigating Complex Waters</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Cross-border expansion in Southeast Asia comes with unique challenges that require 
+                    local expertise and trusted guidance to overcome.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-8">
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-start mb-4">
+                        <div class="w-12 h-12 rounded-full flex items-center justify-center mr-4" style="background-color: var(--signal-red);">
+                            <i class="fas fa-exclamation-triangle text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Regulatory Complexity</h3>
+                            <p class="text-gray-600 mb-4">
+                                Distinct regulations on foreign ownership, taxes, and labor laws across 10+ countries. 
+                                Multiple jurisdiction compliance creates expansion delays.
+                            </p>
+                            <div class="p-3 rounded-lg" style="background-color: rgba(254, 1, 1, 0.1);">
+                                <p class="text-sm font-medium" style="color: var(--signal-red);">
+                                    Regulatory complexity is the leading cause of market entry delays
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-start mb-4">
+                        <div class="w-12 h-12 rounded-full flex items-center justify-center mr-4" style="background-color: var(--southmead-blue);">
+                            <i class="fas fa-users text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Cultural & Language Barriers</h3>
+                            <p class="text-gray-600 mb-4">
+                                ASEAN is not monolithic—success hinges on cultural adaptation and building trust. 
+                                Bilingual support and localized messaging are critical.
+                            </p>
+                            <div class="p-3 rounded-lg" style="background-color: rgba(46, 117, 182, 0.1);">
+                                <p class="text-sm font-medium" style="color: var(--southmead-blue);">
+                                    72% more likely to buy from brands that communicate in native language
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-start mb-4">
+                        <div class="w-12 h-12 rounded-full flex items-center justify-center mr-4" style="background-color: var(--medium-blue);">
+                            <i class="fas fa-puzzle-piece text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Market Fragmentation</h3>
+                            <p class="text-gray-600 mb-4">
+                                10+ countries with unique market dynamics mean no one-size-fits-all strategy works. 
+                                Each market requires tailored approaches to product, pricing, and go-to-market.
+                            </p>
+                            <div class="p-3 rounded-lg" style="background-color: rgba(87, 145, 196, 0.1);">
+                                <p class="text-sm font-medium" style="color: var(--medium-blue);">
+                                    Models must adapt to each locale's economic maturity
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-start mb-4">
+                        <div class="w-12 h-12 rounded-full flex items-center justify-center mr-4" style="background-color: var(--deep-blue);">
+                            <i class="fas fa-handshake text-white"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Local Partnerships</h3>
+                            <p class="text-gray-600 mb-4">
+                                On-the-ground allies are essential for distribution networks. Government connections 
+                                require local relationships, and customer trust depends on local credibility.
+                            </p>
+                            <div class="p-3 rounded-lg" style="background-color: rgba(72, 134, 191, 0.1);">
+                                <p class="text-sm font-medium" style="color: var(--deep-blue);">
+                                    Lack of local partnerships is a leading cause of startup failure
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Unique Value Proposition -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-6" style="color: var(--southmead-blue);">Your Trusted Pilotage Partner</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    We are purpose-built to guide deep-tech ventures through Southeast Asia's complex waters, 
+                    so you can focus on what you do best—innovation.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-3 gap-8 mb-16">
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg text-center">
+                    <div class="service-icon mx-auto">
+                        <i class="fas fa-microscope text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4" style="color: var(--southmead-blue);">Deep-Tech Focus</h3>
+                    <p class="text-gray-600">
+                        Engineers & market strategists who understand your science and translate it into compelling use cases.
+                    </p>
+                </div>
+                
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg text-center">
+                    <div class="service-icon mx-auto">
+                        <i class="fas fa-map-marked-alt text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4" style="color: var(--southmead-blue);">SE Asia Experience</h3>
+                    <p class="text-gray-600">
+                        On-the-ground presence across Singapore, Malaysia, Indonesia, Thailand, and Vietnam with local expertise.
+                    </p>
+                </div>
+                
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg text-center">
+                    <div class="service-icon mx-auto">
+                        <i class="fas fa-network-wired text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4" style="color: var(--southmead-blue);">Network of Trust</h3>
+                    <p class="text-gray-600">
+                        Established relationships with key stakeholders, industry partners, and government connections across the region.
+                    </p>
+                </div>
+                
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg text-center">
+                    <div class="service-icon mx-auto">
+                        <i class="fas fa-cogs text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4" style="color: var(--southmead-blue);">End-to-End Execution</h3>
+                    <p class="text-gray-600">
+                        We don't just advise—we roll up our sleeves and execute alongside your team as an extension of your company.
+                    </p>
+                </div>
+                
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg text-center">
+                    <div class="service-icon mx-auto">
+                        <i class="fas fa-bullseye text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4" style="color: var(--southmead-blue);">Result Oriented</h3>
+                    <p class="text-gray-600">
+                        De-risk and swiftly convert deep-tech innovation into measurable commercial success across the region.
+                    </p>
+                </div>
+                
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg text-center">
+                    <div class="service-icon mx-auto">
+                        <i class="fas fa-language text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4" style="color: var(--southmead-blue);">Multilingual Clarity</h3>
+                    <p class="text-gray-600">
+                        Fluent in English and proficient in Chinese and Malay, providing clarity when engaging stakeholders across markets.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="text-center p-8 rounded-2xl" style="background: linear-gradient(135deg, var(--southmead-blue), var(--deep-blue));">
+                <blockquote class="text-xl text-white font-medium italic">
+                    "We de-risk and accelerate your SE Asia expansion, allowing you to focus on advancing your technology 
+                    while we handle the go-to-market complexities."
+                </blockquote>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Leadership Team -->
+    <section id="team" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-6" style="color: var(--southmead-blue);">Navigators Behind Southmead</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Our founding team combines deep expertise in technology, business strategy, and regional insight 
+                    to chart your course to success.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-3 gap-8">
+                <div class="leadership-card floating-card rounded-2xl p-8 shadow-lg">
+                    <div class="text-center mb-6">
+                        <div class="w-24 h-24 rounded-full mx-auto mb-4 flex items-center justify-center text-3xl font-bold text-white" style="background-color: var(--southmead-blue);">
+                            KS
+                        </div>
+                        <h3 class="text-2xl font-bold" style="color: var(--southmead-blue);">Keat SOH</h3>
+                        <p class="text-lg font-medium" style="color: var(--signal-red);">Co-Founder</p>
+                    </div>
+                    <p class="text-gray-600 mb-6">
+                        Prior experience as Chief Creative Officer, Chief Strategy Officer and Chief Innovation Officer 
+                        at global businesses. Sets the AI business strategy.
+                    </p>
+                    <div class="space-y-2">
+                        <div class="flex items-center text-sm" style="color: var(--southmead-blue);">
+                            <i class="fas fa-lightbulb mr-2"></i>
+                            <span>Innovation</span>
+                        </div>
+                        <div class="flex items-center text-sm" style="color: var(--southmead-blue);">
+                            <i class="fas fa-chart-line mr-2"></i>
+                            <span>Strategic Vision</span>
+                        </div>
+                        <div class="flex items-center text-sm" style="color: var(--southmead-blue);">
+                            <i class="fas fa-crown mr-2"></i>
+                            <span>Executive Leadership</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="leadership-card floating-card rounded-2xl p-8 shadow-lg">
+                    <div class="text-center mb-6">
+                        <div class="w-24 h-24 rounded-full mx-auto mb-4 flex items-center justify-center text-3xl font-bold text-white" style="background-color: var(--signal-red);">
+                            AL
+                        </div>
+                        <h3 class="text-2xl font-bold" style="color: var(--southmead-blue);">Alan LIM</h3>
+                        <p class="text-lg font-medium" style="color: var(--signal-red);">Co-Founder</p>
+                    </div>
+                    <p class="text-gray-600 mb-6">
+                        Blends marketing insight with data science; builds ecosystem partnerships, underpinned by 
+                        engineering background & role as AI think tank founding member.
+                    </p>
+                    <div class="space-y-2">
+                        <div class="flex items-center text-sm" style="color: var(--southmead-blue);">
+                            <i class="fas fa-compass mr-2"></i>
+                            <span>Engineering North Star</span>
+                        </div>
+                        <div class="flex items-center text-sm" style="color: var(--southmead-blue);">
+                            <i class="fas fa-handshake mr-2"></i>
+                            <span>Strategic Partnership</span>
+                        </div>
+                        <div class="flex items-center text-sm" style="color: var(--southmead-blue);">
+                            <i class="fas fa-bullhorn mr-2"></i>
+                            <span>Marketing Foresight</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="leadership-card floating-card rounded-2xl p-8 shadow-lg">
+                    <div class="text-center mb-6">
+                        <div class="w-24 h-24 rounded-full mx-auto mb-4 flex items-center justify-center text-3xl font-bold text-white" style="background-color: var(--deep-blue);">
+                            AK
+                        </div>
+                        <h3 class="text-2xl font-bold" style="color: var(--southmead-blue);">Adam KWAN</h3>
+                        <p class="text-lg font-medium" style="color: var(--signal-red);">Co-Founder</p>
+                    </div>
+                    <p class="text-gray-600 mb-6">
+                        Experienced IT product architect, inventor and developer of cybersecurity, insurance and 
+                        telco products. Takes charge of AI production.
+                    </p>
+                    <div class="space-y-2">
+                        <div class="flex items-center text-sm" style="color: var(--southmead-blue);">
+                            <i class="fas fa-robot mr-2"></i>
+                            <span>AI Production</span>
+                        </div>
+                        <div class="flex items-center text-sm" style="color: var(--southmead-blue);">
+                            <i class="fas fa-server mr-2"></i>
+                            <span>IT Infrastructure</span>
+                        </div>
+                        <div class="flex items-center text-sm" style="color: var(--southmead-blue);">
+                            <i class="fas fa-shield-alt mr-2"></i>
+                            <span>Cybersecurity Stewardship</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="services" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-6" style="color: var(--southmead-blue);">End-to-End Go-To-Market Services</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Your complete cross-border expansion partner. We customize our comprehensive suite of services 
+                    to power your journey across Southeast Asia.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-8">
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-start mb-4">
+                        <div class="service-icon">
+                            <i class="fas fa-code text-white text-xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold mb-3" style="color: var(--southmead-blue);">Technology Localization</h3>
+                            <p class="text-gray-600">
+                                Tailor every feature, interface, and compliance detail to local languages, cultures, 
+                                and regulations—turn regional complexity into competitive advantage.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-start mb-4">
+                        <div class="service-icon">
+                            <i class="fas fa-search text-white text-xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold mb-3" style="color: var(--southmead-blue);">Market Research & Entry Strategy</h3>
+                            <p class="text-gray-600">
+                                Deep analysis of target markets, competition, and client segments with data-driven 
+                                prioritization and rollout sequencing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-start mb-4">
+                        <div class="service-icon">
+                            <i class="fas fa-balance-scale text-white text-xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold mb-3" style="color: var(--southmead-blue);">Regulatory Advisory & Compliance</h3>
+                            <p class="text-gray-600">
+                                Expert navigation through local regulations, certifications, and legal requirements 
+                                to ensure smooth market entry without costly delays.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-start mb-4">
+                        <div class="service-icon">
+                            <i class="fas fa-rocket text-white text-xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold mb-3" style="color: var(--southmead-blue);">Pilot Program Management</h3>
+                            <p class="text-gray-600">
+                                "Land and expand" via managed pilot deployments, creating reference cases and 
+                                success stories that drive broader adoption.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-start mb-4">
+                        <div class="service-icon">
+                            <i class="fas fa-bullhorn text-white text-xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold mb-3" style="color: var(--southmead-blue);">Marketing & Brand Localization</h3>
+                            <p class="text-gray-600">
+                                Crafting localized messaging, digital marketing, PR and events that build brand 
+                                awareness while maintaining your visual identity.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="flex items-start mb-4">
+                        <div class="service-icon">
+                            <i class="fas fa-handshake text-white text-xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold mb-3" style="color: var(--southmead-blue);">Partnerships & Business Development</h3>
+                            <p class="text-gray-600">
+                                Leveraging our network to connect with distributors, resellers, and lighthouse clients 
+                                while acting as your local BD team.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg lg:col-span-2">
+                    <div class="flex items-start mb-4">
+                        <div class="service-icon">
+                            <i class="fas fa-life-ring text-white text-xl"></i>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold mb-3" style="color: var(--southmead-blue);">Ongoing Support & Operations</h3>
+                            <p class="text-gray-600">
+                                Post-launch support for hiring, distribution, supply chain optimization, and localized 
+                                client support to ensure sustainable growth.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Case Studies -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-6" style="color: var(--southmead-blue);">Success Stories: Deep-Tech Breakthroughs</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Real ventures, real results. See how we've guided deep-tech innovations from breakthrough to beachhead.
+                </p>
+            </div>
+            
+            <div class="grid lg:grid-cols-3 gap-8">
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="text-center mb-6">
+                        <div class="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center" style="background-color: var(--southmead-blue);">
+                            <i class="fas fa-user-md text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold" style="color: var(--southmead-blue);">Miss C Healthcare Assistant</h3>
+                    </div>
+                    
+                    <div class="space-y-4 text-sm">
+                        <div>
+                            <h4 class="font-semibold mb-2" style="color: var(--signal-red);">Challenge</h4>
+                            <p class="text-gray-600">
+                                AI healthcare assistant faced cultural and communication barriers in Southeast Asia, 
+                                with low patient engagement and slow response times in Malaysia clinics.
+                            </p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-semibold mb-2" style="color: var(--southmead-blue);">Solution</h4>
+                            <p class="text-gray-600">
+                                Southmead guided complete localization for instant patient and clinical staff support, 
+                                adapting to local healthcare protocols and communication styles.
+                            </p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-semibold mb-2" style="color: var(--deep-blue);">Outcome</h4>
+                            <p class="text-gray-600">
+                                Successful expansion into Malaysia. Became the first AI companion widely adopted by 
+                                seniors in Singapore. Transformed from "foreign" product to trusted local solution.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="text-center mb-6">
+                        <div class="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center" style="background-color: var(--medium-blue);">
+                            <i class="fas fa-microphone text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold" style="color: var(--southmead-blue);">Aispeakin Speech Recognition</h3>
+                    </div>
+                    
+                    <div class="space-y-4 text-sm">
+                        <div>
+                            <h4 class="font-semibold mb-2" style="color: var(--signal-red);">Challenge</h4>
+                            <p class="text-gray-600">
+                                Advanced speech recognition technology needed adaptation for diverse Southeast Asian 
+                                languages, accents, and business contexts.
+                            </p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-semibold mb-2" style="color: var(--southmead-blue);">Solution</h4>
+                            <p class="text-gray-600">
+                                Leveraged our multilingual team and regional partnerships to fine-tune AI models 
+                                for local language nuances and integrate with regional business systems.
+                            </p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-semibold mb-2" style="color: var(--deep-blue);">Outcome</h4>
+                            <p class="text-gray-600">
+                                Rapid adoption across multiple markets with significantly improved accuracy rates 
+                                for local languages and successful enterprise deployment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="floating-card bg-white rounded-2xl p-8 shadow-lg">
+                    <div class="text-center mb-6">
+                        <div class="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center" style="background-color: var(--light-blue);">
+                            <i class="fas fa-cogs text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold" style="color: var(--southmead-blue);">SERS Process Automation</h3>
+                    </div>
+                    
+                    <div class="space-y-4 text-sm">
+                        <div>
+                            <h4 class="font-semibold mb-2" style="color: var(--signal-red);">Challenge</h4>
+                            <p class="text-gray-600">
+                                Complex manufacturing automation technology required local regulatory approval 
+                                and integration with existing industrial systems across different countries.
+                            </p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-semibold mb-2" style="color: var(--southmead-blue);">Solution</h4>
+                            <p class="text-gray-600">
+                                Navigated regulatory requirements, established local partnerships with system 
+                                integrators, and managed pilot deployments with key manufacturing clients.
+                            </p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-semibold mb-2" style="color: var(--deep-blue);">Outcome</h4>
+                            <p class="text-gray-600">
+                                Successful deployment across three countries with proven ROI metrics, 
+                                establishing strong reference cases for broader market expansion.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <div class="inline-block p-6 rounded-2xl" style="background: linear-gradient(135deg, var(--southmead-blue), var(--deep-blue));">
+                    <p class="text-white font-semibold text-lg">Cultural Navigation Success</p>
+                    <p class="text-blue-100 mt-2">
+                        Every venture transformed from "foreign" product to trusted local solution
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 hero-gradient relative overflow-hidden">
+        <div class="absolute inset-0 wave-pattern"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center text-white">
+                <h2 class="text-4xl font-bold mb-6">Ready to Navigate Southeast Asia?</h2>
+                <p class="text-xl mb-8 text-blue-100 max-w-3xl mx-auto">
+                    Your next growth chapter awaits, and Southmead will proudly be your pilot boat, 
+                    guiding you safely and swiftly to sustainable success across Southeast Asia.
+                </p>
+                
+                <div class="grid lg:grid-cols-2 gap-12 items-center mt-16">
+                    <div class="text-left">
+                        <h3 class="text-2xl font-bold mb-6">Why Navigate Alone?</h3>
+                        <p class="text-blue-100 mb-8 leading-relaxed">
+                            As a visionary founder or deep-tech leader, your time is best spent on innovation. 
+                            Let Southmead handle the intricacies of cross-border expansion while you focus on 
+                            what you do best—breakthrough technology.
+                        </p>
+                        
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 rounded-full flex items-center justify-center mr-4" style="background-color: var(--signal-red);">
+                                    <i class="fas fa-envelope text-white text-sm"></i>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Email</p>
+                                    <a href="/cdn-cgi/l/email-protection#7b151a0d121c1a0f1e3b08140e0f13161e1a1f551a08121a" class="text-blue-200 hover:text-white transition-colors">
+                                        <span class="__cf_email__" data-cfemail="0f616e7966686e7b6a4f7c607a7b67626a6e6b216e7c666e">[email&#160;protected]</span>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 rounded-full flex items-center justify-center mr-4" style="background-color: var(--signal-red);">
+                                    <i class="fas fa-globe text-white text-sm"></i>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Website</p>
+                                    <a href="https://www.southmead.asia" class="text-blue-200 hover:text-white transition-colors">
+                                        www.southmead.asia
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <div class="w-8 h-8 rounded-full flex items-center justify-center mr-4" style="background-color: var(--signal-red);">
+                                    <i class="fas fa-map-marker-alt text-white text-sm"></i>
+                                </div>
+                                <div>
+                                    <p class="font-semibold">Locations</p>
+                                    <p class="text-blue-200">Singapore | Hong Kong | Kuala Lumpur</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-8">
+                        <h3 class="text-2xl font-bold mb-6">Your Destination Awaits</h3>
+                        <form class="space-y-4">
+                            <div>
+                                <input type="text" placeholder="Your Name" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-30 text-white placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50">
+                            </div>
+                            <div>
+                                <input type="email" placeholder="Email Address" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-30 text-white placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50">
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Company" class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-30 text-white placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50">
+                            </div>
+                            <div>
+                                <textarea rows="4" placeholder="Tell us about your deep-tech venture and expansion goals..." class="w-full px-4 py-3 rounded-lg bg-white bg-opacity-20 border border-white border-opacity-30 text-white placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50 resize-none"></textarea>
+                            </div>
+                            <button type="submit" class="w-full px-8 py-4 rounded-lg font-semibold text-white transition-all hover:shadow-xl transform hover:scale-105" style="background-color: var(--signal-red);">
+                                <i class="fas fa-paper-plane mr-2"></i>
+                                Start Your Journey Today
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <div class="w-10 h-10 rounded-full flex items-center justify-center mr-3" style="background-color: var(--southmead-blue);">
+                            <div class="text-white font-bold text-lg">S</div>
+                            <div class="absolute w-2 h-2 rounded-full ml-6 mt-1" style="background-color: var(--signal-red);"></div>
+                            <div class="absolute w-1 h-1 rounded-full ml-8 mt-3" style="background-color: var(--signal-red);"></div>
+                            <div class="absolute w-1 h-1 rounded-full ml-4 mt-3" style="background-color: var(--signal-red);"></div>
+                        </div>
+                        <span class="text-xl font-bold">Southmead</span>
+                    </div>
+                    <p class="text-gray-400 mb-4">
+                        Your trusted pilotage partner for deep-tech expansion across Southeast Asia.
+                    </p>
+                    <p class="text-sm text-gray-500">
+                        © 2024 Southmead Asia. All rights reserved.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#services" class="hover:text-white transition-colors">Technology Localization</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors">Market Entry Strategy</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors">Regulatory Advisory</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors">Partnership Development</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Markets</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>Singapore</li>
+                        <li>Malaysia</li>
+                        <li>Indonesia</li>
+                        <li>Thailand</li>
+                        <li>Vietnam</li>
+                        <li>Hong Kong</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Connect</h4>
+                    <div class="space-y-2 text-gray-400">
+                        <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="315f5047585650455471425e4445595c5450551f50425850">[email&#160;protected]</a></p>
+                        <p>www.southmead.asia</p>
+                        <div class="flex space-x-4 mt-4">
+                            <a href="#" class="w-8 h-8 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors" style="background-color: var(--southmead-blue);">
+                                <i class="fab fa-linkedin-in text-white text-sm"></i>
+                            </a>
+                            <a href="#" class="w-8 h-8 rounded-full flex items-center justify-center hover:bg-blue-400 transition-colors" style="background-color: var(--light-blue);">
+                                <i class="fab fa-twitter text-white text-sm"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-divider"></div>
+            
+            <div class="text-center text-gray-400">
+                <p class="italic">"From Breakthroughs to Beachheads—We Chart the Course"</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        // Initialize Charts
+        document.addEventListener('DOMContentLoaded', function() {
+            // Funding Chart
+            const ctx = document.getElementById('fundingChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: ['2020', '2021', '2022', '2023', '2024', '2025 (Projected)'],
+                    datasets: [{
+                        label: 'Deep-Tech Funding Share (%)',
+                        data: [2.1, 3.6, 8.4, 12.8, 17.6, 22.5],
+                        borderColor: '#2e75b6',
+                        backgroundColor: 'rgba(46, 117, 182, 0.1)',
+                        borderWidth: 3,
+                        fill: true,
+                        tension: 0.4
+                    }, {
+                        label: 'Funding Amount ($B)',
+                        data: [0.8, 1.2, 2.1, 3.4, 4.8, 6.2],
+                        borderColor: '#fe0101',
+                        backgroundColor: 'rgba(254, 1, 1, 0.1)',
+                        borderWidth: 3,
+                        fill: false,
+                        tension: 0.4,
+                        yAxisID: 'y1'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        mode: 'index',
+                        intersect: false,
+                    },
+                    scales: {
+                        y: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                            title: {
+                                display: true,
+                                text: 'Deep-Tech Share (%)'
+                            }
+                        },
+                        y1: {
+                            type: 'linear',
+                            display: true,
+                            position: 'right',
+                            title: {
+                                display: true,
+                                text: 'Funding Amount ($B)'
+                            },
+                            grid: {
+                                drawOnChartArea: false,
+                            },
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        },
+                        title: {
+                            display: true,
+                            text: 'Southeast Asia Deep-Tech Funding Growth (2020-2025)'
+                        }
+                    }
+                }
+            });
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Form submission handler
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your interest! We will be in touch within 24 hours to begin charting your Southeast Asia expansion course.');
+        });
+        
+        // Mobile menu toggle (if needed)
+        function toggleMobileMenu() {
+            // Implementation for mobile menu toggle
+        }
+    </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"957ac7e84f69fd0e","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.6.2","token":"4edd5f8ec12a48cfa682ab8261b80a79"}' crossorigin="anonymous"></script>
+</body>
+</html>
+    <script id="html_badge_script1">
+        window.__genspark_remove_badge_link = "https://www.genspark.ai/api/html_badge/" +
+            "remove_badge?token=To%2FBnjzloZ3UfQdcSaYfDi8IIq4hO3r%2FRc6kNakkLNzh59iyIcsW7IKILjYjwnUrod%2FDH%2BRrcP4nItuMWqk%2BOLCsMSSiZAPRDxMWnzkMvwnaONHdeakmJibeSnx5Tif25uXBN2RLKNhQmHGCd0e8JRk1mKTDPkwfBbjJs%2Bx%2Bo0FQh8i6M3bTbQb1xW10F%2BPfpix3%2BtbgD1t31%2Fl8YrtevWiet2U%2BSxJnryluM7jB1fCkfpwzKHdJC4k9JXLHz590pXuB24nCjFTFIxDuXwe234cjke1r6E1DnIjP3djhGfA%2FYL5sntaHl7mx21KpWkSAt%2BI5JvQX%2BjV2l%2BP8RcL%2F6Pdu1NvCg00Lm9nrSRoajMny9lTGrhW4pAXamwIBvygkzkoboIQyA0QmuQxHFpXib6XS0JmutSPNl7w5Lvi3uxuZq%2BCjmCVN1REwgqkhUNBA7LVfNyff4SNQVcf6sORGb76HcuSOyKUDmAFoyBmMHuJ5uByyF%2F5l40LAmk7NyLnLSCiKeFENbXTBCb%2FVXrbfT6hliHZZ7%2Bf5vouxkYIhmVE%3D";
+        window.__genspark_locale = "en-US";
+        window.__genspark_token = "To/BnjzloZ3UfQdcSaYfDi8IIq4hO3r/Rc6kNakkLNzh59iyIcsW7IKILjYjwnUrod/DH+RrcP4nItuMWqk+OLCsMSSiZAPRDxMWnzkMvwnaONHdeakmJibeSnx5Tif25uXBN2RLKNhQmHGCd0e8JRk1mKTDPkwfBbjJs+x+o0FQh8i6M3bTbQb1xW10F+Pfpix3+tbgD1t31/l8YrtevWiet2U+SxJnryluM7jB1fCkfpwzKHdJC4k9JXLHz590pXuB24nCjFTFIxDuXwe234cjke1r6E1DnIjP3djhGfA/YL5sntaHl7mx21KpWkSAt+I5JvQX+jV2l+P8RcL/6Pdu1NvCg00Lm9nrSRoajMny9lTGrhW4pAXamwIBvygkzkoboIQyA0QmuQxHFpXib6XS0JmutSPNl7w5Lvi3uxuZq+CjmCVN1REwgqkhUNBA7LVfNyff4SNQVcf6sORGb76HcuSOyKUDmAFoyBmMHuJ5uByyF/5l40LAmk7NyLnLSCiKeFENbXTBCb/VXrbfT6hliHZZ7+f5vouxkYIhmVE=";
+    </script>
+    
+    <script id="html_notice_dialog_script" src="https://www.genspark.ai/notice_dialog.js"></script>
+    
